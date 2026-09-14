@@ -18,7 +18,7 @@ namespace HospitalManagementSystem.Models
             }
         }
 
-        // Navigation property: one patient has many medical records (real DB relationship).
+        
         public List<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
 
         protected Patient() { }
